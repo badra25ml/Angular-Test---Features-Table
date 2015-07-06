@@ -1,0 +1,7 @@
+form(action='/', method='POST')
+  input(placeholder='Add value here', name='value')
+  button(type='submit') Add value
+
+ul
+ - each value in values
+   li= value
